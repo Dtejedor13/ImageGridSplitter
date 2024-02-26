@@ -1,0 +1,11 @@
+﻿{
+  "splitter": {
+    "rows": 4,
+    "columns": 4
+  },
+  "handler": {
+    "root": "C:/Code/TestProjects",
+    "output": "C:/Code/TestProjects/output",
+    "pattern": "%n_%i.png"
+  }
+}
