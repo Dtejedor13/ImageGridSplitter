@@ -21,10 +21,11 @@ public class ImageHandler
         if (string.IsNullOrEmpty(_root))
             throw new NullReferenceException("Root folder is not set");
 
-        var folder = new DirectoryInfo(_root);
+        var filePath = Path.GetFullPath(_root);
+        var folder = new DirectoryInfo(filePath);
         var images = folder.GetFiles();
 
-        return images.Select(image => $"{_root}/{image.Name}").ToArray();
+        return images.Select(image => $"{filePath}/{image.Name}").ToArray();
     }
     
     public void SaveImagesToOutputDirectory(SplitResult[] images)

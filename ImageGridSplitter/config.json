@@ -4,8 +4,8 @@
     "columns": 4
   },
   "handler": {
-    "root": "C:/Code/TestProjects",
-    "output": "C:/Code/TestProjects/output",
+    "root": "C:\\Users\\denni\\Desktop\\Sword & Sorcery App images\\AC\\Stash",
+    "output": "C:\\Users\\denni\\Desktop\\Sword & Sorcery App images\\AC\\Stash",
     "pattern": "%n_%i.png"
   }
 }

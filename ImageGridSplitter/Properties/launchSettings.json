@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageGridSplitter": {
+      "commandName": "Project",
+      "commandLineArgs": "config.json"
+    }
+  }
+}
